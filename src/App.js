@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
         <header className="header">
-          Some text..
+          
         </header>
     );
   }
