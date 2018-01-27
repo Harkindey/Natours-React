@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './css/App.css';
 //import "./css/icon-font.css";
+import Header from './Components/Header';
 
 class App extends Component {
   render() {
     return (
-        <header className="header">
-          
-        </header>
+          <div>
+            <Header />
+          </div>
     );
   }
 }
