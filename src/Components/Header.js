@@ -12,7 +12,7 @@ class Header extends Component {
 						<span className="heading-primary-main">Outdoors</span>
 						<span className="heading-primary-sub">Is where Life happens</span>
 					</h1>
-					<a href="#" className="btn btn-white">
+					<a href="#" className="btn btn-white btn-animated">
 						Discover Our Tours
 					</a>
 				</div>
