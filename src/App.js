@@ -5,6 +5,7 @@ import './sass/main.scss';
 import Header from './Components/Header';
 import GridTest from './Components/Grid-Test';
 import About from './Components/About';
+import Features from './Components/Features';
 
 class App extends Component {
 	render() {
@@ -13,6 +14,7 @@ class App extends Component {
 				<Header />
 				<main>
 					<About />
+					<Features />
 				</main>
 				{/* <GridTest /> */}
 			</div>
