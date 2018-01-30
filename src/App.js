@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import GridTest from './Components/Grid-Test';
 import About from './Components/About';
 import Features from './Components/Features';
+import Tours from './Components/Tours';
 
 class App extends Component {
 	render() {
@@ -15,6 +16,7 @@ class App extends Component {
 				<main>
 					<About />
 					<Features />
+					<Tours />
 				</main>
 				{/* <GridTest /> */}
 			</div>
