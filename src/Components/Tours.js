@@ -18,7 +18,15 @@ export default class Tours extends Component {
 										The Sea Explorer
 									</span>
 								</h4>
-								<div className="card__details">HEADING</div>
+								<div className="card__details">
+									<ul>
+										<li>3 day tour</li>
+										<li>Up to 30 People</li>
+										<li>2 tour Guides</li>
+										<li>Sleep cozy hotel</li>
+										<li>Difficulty: easy</li>
+									</ul>
+								</div>
 							</div>
 							<div className="card__side card__side--back card__side--back-1">
 								BACK
