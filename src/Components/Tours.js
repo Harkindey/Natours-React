@@ -11,8 +11,14 @@ export default class Tours extends Component {
 				<div className="row">
 					<div className="col-1-of-3">
 						<div className="card">
-							<div className="card__side card__side--front">FRONT</div>
-							<div className="card__side card__side--back card__side--back-1">BACK</div> 
+							<div className="card__side card__side--front">
+								<div className="card__picture card__picture--1">&nbsp;</div>
+								<h4 className="card__heading">The Sea Explorer</h4>
+								<div className="card__details">HEADING</div>
+							</div>
+							<div className="card__side card__side--back card__side--back-1">
+								BACK
+							</div>
 						</div>
 					</div>
 					<div className="col-1-of-3">Col 1 of 3</div>
