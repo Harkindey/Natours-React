@@ -7,6 +7,7 @@ import GridTest from './Components/Grid-Test';
 import About from './Components/About';
 import Features from './Components/Features';
 import Tours from './Components/Tours';
+import Stories from './Components/Stories';
 
 class App extends Component {
 	render() {
@@ -17,6 +18,7 @@ class App extends Component {
 					<About />
 					<Features />
 					<Tours />
+					<Stories />
 				</main>
 				{/* <GridTest /> */}
 			</div>
