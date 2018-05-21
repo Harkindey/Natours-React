@@ -10,7 +10,8 @@ import Tours from './Components/Tours';
 import Stories from './Components/Stories';
 import Booking from "./Components/Booking";
 import Footer from "./Components/Footer";
-import Navigation from "./Components/Navigation"
+import Navigation from "./Components/Navigation";
+import Popup from "./Components/Popup"
 
 class App extends Component {
 	render() {
@@ -18,14 +19,13 @@ class App extends Component {
 			<div>
 				<Navigation />
 				<Header />
-				<main>
-					<About />
-					<Features />
-					<Tours />
-					<Stories />
-					<Booking />
-					<Footer />
-				</main>
+				<About />
+				<Features />
+				<Tours />
+				<Stories />
+				<Booking />
+				<Footer />
+				<Popup />
 				{/* <GridTest /> */}
 			</div>
 		);
