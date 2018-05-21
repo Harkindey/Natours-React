@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Tours extends Component {
 	render() {
 		return (
-			<section className="section-tours">
+			<section className="section-tours" id="section-tours">
 				<div className="u-center-text u-margin-bottom-big">
 					<h2 className="heading-secondary">Most Popular Tours</h2>
 				</div>
@@ -34,7 +34,7 @@ export default class Tours extends Component {
 										<p className="card__price-only">Only</p>
 										<p className="card__price-value">$297</p>
 									</div>
-									<a href="#" className="btn btn--white">
+									<a href="#popup" className="btn btn--white">
 										Book Now!
 									</a>
 								</div>
@@ -66,7 +66,7 @@ export default class Tours extends Component {
 										<p className="card__price-only">Only</p>
 										<p className="card__price-value">$497</p>
 									</div>
-									<a href="#" className="btn btn--white">
+									<a href="#popup" className="btn btn--white">
 										Book Now!
 									</a>
 								</div>
@@ -98,7 +98,7 @@ export default class Tours extends Component {
 										<p className="card__price-only">Only</p>
 										<p className="card__price-value">$897</p>
 									</div>
-									<a href="#" className="btn btn--white">
+									<a href="#popup" className="btn btn--white">
 										Book Now!
 									</a>
 								</div>
