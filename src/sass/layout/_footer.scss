@@ -4,27 +4,36 @@
     font-size: 1.4rem;
     color: $color-grey-light-1;
 
-    &__logo-box {
-        text-align: center;
-        margin-bottom:  8rem;
+    @include respond(tab-port) {
+        padding: 8rem 0;
     }
 
-    &__logo{
+    &__logo-box {
+        text-align: center;
+        margin-bottom: 8rem;
+    }
+
+    &__logo {
         width: 15rem;
         height: auto;
     }
 
-    &__navigation{
+    &__navigation {
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         display: inline-block; // an inline block doesn take the whole width of a box, just the amount the content needs
+
+        @include respond(phone) {
+            width: 100%;
+            text-align: center;
+        }
     }
 
     &__list {
         list-style: none;
-    }    
+    }
 
-    &__item{
+    &__item {
         display: inline-block;
 
         &:not(:last-child) {
@@ -32,7 +41,8 @@
         }
     }
 
-    &__link{
+    &__link {
+
         &:link,
         &:visited {
             color: $color-grey-light-1;
@@ -51,9 +61,14 @@
         }
     }
 
-    &__copyright{
+    &__copyright {
         border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;  
+        padding-top: 2rem;
         float: right;
+
+        @include respond(phone) {
+            width: 100%;
+            float: none;
+        }
     }
 }
