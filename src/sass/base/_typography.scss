@@ -12,8 +12,6 @@ body {
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
-
-
   &--main {
     display: block;
     font-size: 6rem;
@@ -58,6 +56,14 @@ body {
   color: transparent;
   letter-spacing: 2px;
   transition: all .2s;
+
+  @include respond(tab-port) {
+    font-size: 3rem
+  }
+
+  @include respond(phone) {
+    font-size: 2.5rem
+  }
 
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
