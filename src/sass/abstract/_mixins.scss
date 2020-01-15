@@ -25,9 +25,15 @@
  - tab-port
  - tab-land
 - big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em  = 16px
 */
 
+
 @mixin respond($breakpoint) {
+
 	//600px
 	@if $breakpoint==phone {
 		@media (max-width: 37.5em) {
