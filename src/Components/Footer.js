@@ -11,6 +11,7 @@ class Footer extends Component {
 							media="(max-width: 37.5em)"
 						/>
 						<img
+							src="img/logo-green-2x.png"
 							srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
 							alt="full logo"
 						/>
