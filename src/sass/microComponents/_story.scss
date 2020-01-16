@@ -8,30 +8,54 @@
     padding-left: 9rem;
     font-size: $default-font-size;
     transform: skewX(-12deg);
-    &__shape{
+
+    @include respond(tab-port) {
+        width: 100%;
+        padding: 4rem;
+        padding-left: 7rem;
+    }
+
+    @include respond(phone) {
+        transform: skewX(0);
+    }
+
+    &__shape {
         width: 15rem;
         height: 15rem;
         float: left;
-        -webkit-shape-outside: circle(50% at 50% 50%); /* only works on safari with the webkit module */
-        shape-outside: circle(50% at 50% 50%); /* This can only work if the element is floated, has a fixed height and width */
-        -webkit-clip-path:circle(50% at 50% 50%);
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        /* only works on safari with the webkit module */
+        shape-outside: circle(50% at 50% 50%);
+        /* This can only work if the element is floated, has a fixed height and width */
+        -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
-        transform: translateX(-3rem)skewX(12deg);
+        transform: translateX(-3rem) skewX(12deg);
         position: relative;
+
+        @include respond(phone) {
+            transform: translateX(-3rem) skewX(0);
+        }
     }
-    &__img{
-        height:100%;
+
+    &__img {
+        height: 100%;
         transform: translateX(-4rem) scale(1.4);
         backface-visibility: hidden;
         transition: all .5s;
     }
-    &__text{
+
+    &__text {
         transform: skewX(12deg);
+
+        @include respond(phone) {
+            transform: skewX(0);
+        }
     }
-    &__caption{
+
+    &__caption {
         position: absolute;
-        top:50%;
-        left:50%;
+        top: 50%;
+        left: 50%;
         transform: translate(-50%, 20%);
         color: $color-white;
         text-transform: uppercase;
@@ -41,11 +65,13 @@
         transition: all .5s;
         backface-visibility: hidden;
     }
-    &:hover &__caption{
+
+    &:hover &__caption {
         opacity: 1;
         transform: translate(-50%, -50%);
     }
-    &:hover &__img{
+
+    &:hover &__img {
         transform: translateX(-4rem) scale(1);
         filter: blur(3px) brightness(80%);
     }
