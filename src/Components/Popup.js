@@ -17,7 +17,7 @@ class Popup extends Component {
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit accusamus harum cum, explicabo eum aliquid culpa atque id impedit! Distinctio vitae recusandae culpa deserunt alias iste in placeat mollitia facilis.
                             Optio blanditiis sed labore amet accusamus molestiae fugiat placeat. Suscipit, est explicabo. Delectus eius a excepturi dicta sint tempora inventore at, maiores ullam doloribus necessitatibus illo obcaecati officiis ducimus dolor.
                         </p>
-                        <a href="#" className="btn btn--green btn-green">Book now</a>
+                        <a href="" className="btn btn--green btn-green">Book now</a>
                     </div>
                 </div>
             </div>

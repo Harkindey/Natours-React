@@ -108,7 +108,7 @@ export default class Tours extends Component {
 				</div>
 
 				<div className="u-center-text u-margin-top-huge">
-					<a href="#" className="btn btn--green btn-green">
+					<a href="" className="btn btn--green btn-green">
 						Discover all tours
 					</a>
 				</div>
