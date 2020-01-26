@@ -5,14 +5,14 @@ class Footer extends Component {
 		return (
 			<footer className="footer">
 				<div className="footer__logo-box">
-					<picture class="footer__logo">
+					<picture className="footer__logo">
 						<source
-							srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+							srcSet="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
 							media="(max-width: 37.5em)"
 						/>
 						<img
 							src="img/logo-green-2x.png"
-							srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+							srcSet="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
 							alt="full logo"
 						/>
 					</picture>
