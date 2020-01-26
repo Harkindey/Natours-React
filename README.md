@@ -1,1 +1,1 @@
-Natours Website built with React
+Natours Website
